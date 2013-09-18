@@ -1,0 +1,48 @@
+<!--
+Aplicativo para encriptar textos
+author:Marcosptf
+marcosptf@yahoo.com.br
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <title>Encripter JS</title>
+        <script src="js/encriptArray.js" type="text/javascript"></script>
+        <script src="js/encript.js" type="text/javascript"></script>
+<!--        <script src="js/Encripter.js" type="text/javascript"></script>-->
+    </head>
+    <body>
+    <center>
+        <fieldset id="fstGeral">
+            <legend>Encripter JS</legend>
+            <div id="divTopo">
+                <noscript>
+                        <br><label id="noScript">Favor Habilitar o Javascript</label>
+                </noscript>
+            </div>
+            <div id="divResp">
+                <textarea id="txtResp" ></textarea>
+            </div>
+            <div id="divBottom">
+                <input id="txtEdit" type="text" value=""/>
+                <span id="RespCounter"></span>
+                <br/>
+                <input type="checkbox" name="chkEncript" id="chkEncript" /><label for="chkEncript">Descriptar</label>
+                <br/>
+                <table>
+                    <tr>
+                        <td>
+                            <button id="btnEncriptar">Encriptar</button>
+                            <button id="btnDecriptar" style="display:none;">Decriptar</button>
+                        </td>
+                        <td>
+                            <button id="btnLimpar">Limpar</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </fieldset>
+    </center>
+    </body>
+</html>

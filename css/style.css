@@ -1,0 +1,35 @@
+/*
+* arquivo de estilos para o EncripterJS
+*/
+
+fieldset {
+    height: 220px;
+    left: 5px;
+    position: absolute;
+    top: 15px;
+    width: 300px;
+}
+
+button{
+    width:90px;
+}
+
+#txtEdit {
+    height: 80px;
+    width: 250px;
+}
+
+#txtResp{
+    height: 120px;
+    width: 250px;
+}
+
+span{
+    backcolor:blue;
+    color:red;
+}
+
+#noScript{
+    color:red;
+}
+
